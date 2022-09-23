@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task-on-off/static/css/main.78727f04.css",
+    "main.js": "/task-on-off/static/js/main.627f8268.js",
+    "index.html": "/task-on-off/index.html",
+    "main.78727f04.css.map": "/task-on-off/static/css/main.78727f04.css.map",
+    "main.627f8268.js.map": "/task-on-off/static/js/main.627f8268.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78727f04.css",
+    "static/js/main.627f8268.js"
+  ]
+}
