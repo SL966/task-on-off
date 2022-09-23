@@ -1,0 +1,26 @@
+.on {
+    margin-left: 20px;
+}
+.on.active {
+    color: red;
+}
+
+.off {
+
+    margin-left: 5px;
+}
+
+
+
+
+
+.o {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: none;
+    margin-left: 10px;
+}
+
