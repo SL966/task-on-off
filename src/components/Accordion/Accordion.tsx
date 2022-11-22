@@ -20,6 +20,7 @@ export type AccordionPropsType = {
 }
 
 export function Accordion(props: AccordionPropsType) {
+    console.log('Accordion 1')
     return <div>
         <AccordionTitle type={props.titleValue}
                         onChange={props.onChange}
@@ -31,15 +32,16 @@ export function Accordion(props: AccordionPropsType) {
 export type AccordionTitlePropsType = {
     type: string
     onChange: () => void
-    color ? : string
+    color?: string
 }
 
 export function AccordionTitle(props: AccordionTitlePropsType) {
+    console.log('Accordion 2')
     const Color = {
         color: 'blue',
     }
     return (
-        <h3 style={{color: props.color ? props.color :'black'}}
+        <h3 style={{color: props.color ? props.color : 'black'}}
             onClick={(e) => props.onChange()}>{props.type}</h3>
     );
 }
@@ -50,6 +52,7 @@ export type AccordionBodyPropsType = {
 }
 
 export function AccordionBody(props: AccordionBodyPropsType) {
+    console.log('Accordion 3')
 
     return (
         <ul>
@@ -58,5 +61,6 @@ export function AccordionBody(props: AccordionBodyPropsType) {
             }} key={index}>{i.title}</li>)}
         </ul>
     );
+
 }
 

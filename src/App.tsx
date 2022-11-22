@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import {OnOff} from "./components/OnOff/OnOff";
 import SelfControlAccordion from "./components/SelfControlAccordion/SelfControlAccordion";
@@ -6,6 +6,7 @@ import {SelfControlRating} from "./components/SelfControlRating/SelfControlRatin
 import {Rating, RatingValueType} from "./components/Reting/Rating";
 import SelfControlOnOff from "./components/SelfControlOnOff/SelfControlOnOff";
 import {Accordion} from "./components/Accordion/Accordion";
+import {clearInterval} from "timers";
 
 
 export function App() {
