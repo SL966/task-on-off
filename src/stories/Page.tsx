@@ -10,6 +10,7 @@ type User = {
 export const Page: React.VFC = () => {
   const [user, setUser] = React.useState<User>();
 
+
   return (
     <article>
       <Header
